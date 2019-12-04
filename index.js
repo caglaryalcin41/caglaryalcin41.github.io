@@ -1,4 +1,4 @@
-﻿var apiUrl = "https://inoteapi.kod.fun/";
+﻿var apiUrl = "https://www.bilgedayi.com/";
 
 var app = angular.module("myApp", ["ngRoute"]);
 
