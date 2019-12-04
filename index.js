@@ -74,13 +74,13 @@ app.controller("indexCtrl", function ($scope, $window, $http, $location) {
 
 app.config(function ($routeProvider) {
     $routeProvider.when("/", {
-        templateUrl: "Pages/Main.html",
+        templateUrl: "Pages/main.html",
         controller: "mainCtrl"
     }).when("/login", {
-        templateUrl: "Pages/Login.html",
+        templateUrl: "Pages/login.html",
         controller: "loginCtrl"
     }).when("/register", {
-        templateUrl: "Pages/Register.html",
+        templateUrl: "Pages/register.html",
         controller: "registerCtrl"
     });
 });
